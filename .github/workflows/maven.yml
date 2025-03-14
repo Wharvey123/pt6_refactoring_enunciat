@@ -22,4 +22,4 @@ jobs:
         cache: maven # Activa la memòria cau de Maven per accelerar el procés
 
     - name: Build with Maven
-      run: mvn -B package --file pom.xml # Executa Maven en mode batch per compilar el projecte
+      run: mvn -B package --file refactoring/pom.xml # Executa Maven en mode batch per compilar el projecte
