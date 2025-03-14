@@ -21,5 +21,5 @@ jobs:
         distribution: 'temurin' # Utilitza la distribució Temurin d'Adoptium
         cache: maven # Activa la memòria cau de Maven per accelerar el procés
 
-    - name: Run tests with Maven
-      run: mvn test # Executa Maven en mode test per compilar i provar el projecte
+    - name: Build with Maven
+      run: mvn -B package --file pom.xml # Executa Maven en mode batch per compilar el projecte
