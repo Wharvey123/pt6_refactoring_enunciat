@@ -1,4 +1,4 @@
-name: Maven Test # Nom del workflow
+name: Maven Build i Test # Nom del workflow
 
 on:
   push:
